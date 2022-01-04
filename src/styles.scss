@@ -1,1 +1,91 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./assets/styles/variable.scss";
+
+
+html,
+body {
+  margin: 0 !important;
+  padding: 0;
+  box-sizing: border-box;
+  background: $primaryBiege !important;
+  margin: 0 !important;
+ 
+}
+.btn-read {
+  color: #343B41;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0;
+  background: none;
+ 
+}
+.btn-read:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.para-content {
+  line-height: 18px;
+  height: 90px;
+  overflow: hidden;
+}
+.showtable {
+  overflow: visible;
+  height: auto;
+}
+
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  background-image: none !important;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form-wrapper {
+ 
+  border: 1px solid #ddd;
+  width: 100%;
+ 
+  user-select: none;
+  padding: 24px;
+}
+
+.navbar-collapse {
+  justify-content: space-around !important;
+}
+.add-btn{
+  background: #0039CB;
+  color: #FFFFFF;
+  border-radius: 0 10px;
+  height: 48px;
+  width: 140px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  box-shadow: 0px 2px 3px #0000001A !important;
+}
+button:focus{
+  outline: none;
+}
+.back-btn{
+  background: #FF3E03;
+  border: 0;
+  color: white;
+  border-radius: 0 10px;
+  height: 48px;
+  width: 140px;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 0px 2px 3px #0000001A !important;
+}
+#toast-container > div {
+  opacity:1;
+}
+
+.heading{
+  color: #0039CB;
+}
