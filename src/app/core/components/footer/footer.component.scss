@@ -1,0 +1,68 @@
+@import "../../../../assets/styles/variable.scss";
+.footer {
+    background-color: white;
+}
+
+img{
+    height: 60px;
+}
+.heading{
+    color:#0039CB;
+    font-weight: 500;
+}
+
+.link{
+    text-decoration: none !important;
+  
+    color: black;
+    &:hover{
+        color: black;
+    }
+   
+}
+.social{
+    height: 22px;
+
+}
+.reg-link{
+    color:black;
+    text-decoration: none !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+@media (max-width: 1199px) and (min-width: 768px){
+    .timings p > span {
+    width: 100% !important;
+    text-align: left !important;
+    }
+    
+    }
+
+@media (max-width: 767px){
+    .timings p > span {
+        font-size: 13px;
+        text-align: left !important;
+    }
+    .time{
+        font-size: 15px;
+    }
+    .footer .col-4,
+ .footer .col-5,
+ .footer .col-3 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+}
+
+
+.timings p {
+    margin: 0;
+}
+
+.timings p > span:first-child {
+    width: 44%;
+    display: inline-block;
+}
+
