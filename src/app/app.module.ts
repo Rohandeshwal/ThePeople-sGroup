@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import {CoreModule} from './core/core.module'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'  ;
 import { HomeModule } from './modules/home/home.module';
 // import { FormsModule } from '@angular/forms';
 
@@ -21,7 +22,7 @@ import { HomeModule } from './modules/home/home.module';
   
   ],
   imports: [
-    BrowserModule,BrowserAnimationsModule,CoreModule,HomeModule,
+    BrowserModule,BrowserAnimationsModule,CoreModule,HomeModule,FontAwesomeModule,
     AppRoutingModule,
   ],
   providers: [],

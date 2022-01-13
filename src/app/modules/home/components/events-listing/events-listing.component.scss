@@ -8,13 +8,7 @@
     // min-height: 81px;
     margin-top: 27vh;
 }
-  .button1 {
-     position: absolute !important;
-    left: 27%;
-    bottom: -10px;
-    width: 127px !important;
-    transform: translateY(-50%);
-  }
+ 
   .flip-font{
     font-size: 18px;
     font-weight: bold;
@@ -126,9 +120,7 @@
   
       @media (max-width: 767px){
        
-        .button1 {
-          left:31%;
-        }
+        
   
         .flip-card {
           height: 316px;
@@ -150,12 +142,9 @@
       width: 100%;
       }
       }
-  
-      
       .card-title {
         // margin-bottom: 1.99rem;
     }
-  
   
   .detail{
     font-size: 14px;

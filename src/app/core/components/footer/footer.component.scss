@@ -1,10 +1,18 @@
 @import "../../../../assets/styles/variable.scss";
 .footer {
     background-color: white;
+    padding: 14px;
 }
-
+.events{
+    img{
+        height: 60px;
+    border: 4px solid #84b148;
+    border-radius: 4px;
+    }
+}
 img{
     height: 60px;
+    
 }
 .heading{
     color:#0039CB;

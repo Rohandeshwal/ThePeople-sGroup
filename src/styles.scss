@@ -1,7 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./assets/styles/variable.scss";
-
-
+@import '~font-awesome/scss/font-awesome.scss';
 html,
 body {
   margin: 0 !important;
@@ -33,12 +32,9 @@ body {
   overflow: visible;
   height: auto;
 }
-
-
 .form-control.is-invalid,
 .was-validated .form-control:invalid {
   background-image: none !important;
-
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -46,20 +42,15 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 .form-wrapper {
- 
   border: 1px solid #ddd;
   width: 100%;
- 
   user-select: none;
   padding: 24px;
 }
-
 h1{
   color: #000;
   font-weight: 400;
- 
 }
-
 .navbar-collapse {
   justify-content: space-around !important;
 }
@@ -93,5 +84,5 @@ button:focus{
 }
 
 .heading{
-  color: #0039CB;
+  color: green;
 }
