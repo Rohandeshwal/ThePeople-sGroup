@@ -6,17 +6,23 @@ import { HomeComponent } from './pages/home/home.component';
 import { CoreModule } from 'src/app/core/core.module';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { EventsListingComponent } from './components/events-listing/events-listing.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'  ;
+
+import { OurGoalsComponent } from './components/our-goals/our-goals.component';
 
 
 @NgModule({
   declarations: [
     HomeComponent,
     ContactUsComponent,
-    EventsListingComponent
+    EventsListingComponent,
+    AboutUsComponent,
+    OurGoalsComponent
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule,CoreModule
+    HomeRoutingModule,CoreModule,FontAwesomeModule
   ],
   exports: [HomeComponent, HomeRoutingModule]
 })
