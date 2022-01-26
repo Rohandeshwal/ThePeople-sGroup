@@ -10,6 +10,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'  ;
 
 import { OurGoalsComponent } from './components/our-goals/our-goals.component';
+import { EventsCarouselsComponent } from './components/events-carousels/events-carousels.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { OurGoalsComponent } from './components/our-goals/our-goals.component';
     ContactUsComponent,
     EventsListingComponent,
     AboutUsComponent,
-    OurGoalsComponent
+    OurGoalsComponent,
+    EventsCarouselsComponent
   ],
   imports: [
     CommonModule,
